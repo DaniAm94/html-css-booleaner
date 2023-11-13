@@ -66,6 +66,7 @@ ul {
 
 table {
     margin: 20px 0;
+    border: none;
 }
 
 thead {
@@ -83,4 +84,29 @@ thead {
 
 td {
     max-width: 750px;
+}
+
+
+.curiosity-img {
+    width: 400px;
+    height: 266px;
+    margin: 20px 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(128 128 129);
+}
+
+.first-img {
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+}
+
+.second-img {
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
 }
